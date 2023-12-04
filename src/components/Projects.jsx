@@ -156,12 +156,16 @@ export default function Projects() {
 
                    <span> </span>
                   The differences between cars at the code level have been minimal. {"\n"}
+                    
+                   <span> </span>
                   The vast majority of changes are due to differences between simulators between ros and ros2. {"\n"}
                   As well as modification of parameters. For the holonomic car I have implemented p3_holonimic.py {"\n"} 
-                  and later p3_ackermann.py for the ackermann car.
+                  and later p3_ackermann.py for the ackermann car.{"\n"}
                                
   
-                     <span></span>
+                  <span></span>
+                    {"\n"}
+                    {"\n"}
                       Here is an example video: {"\n"} {"\n"}
                     <center><iframe width="560" height="315" src="https://www.youtube.com/embed/pWLZbrcnBuA?si=FN8QzS648ruP2o_T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> </center>
                   <span></span>
