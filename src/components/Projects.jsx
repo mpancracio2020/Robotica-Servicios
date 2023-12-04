@@ -125,7 +125,7 @@ export default function Projects() {
           {/* P3 - Autoparking*/}
 
           <div>
-            <h1>Vending Machine <Icon icon="icon-park-outline:parking" className="display-4" /></h1>
+            <h1>Autoparking <Icon icon="icon-park-outline:parking" className="display-4" /></h1>
             <div className="accordion">
               {accordionData.map(({ title, content }) => (
                 <Accordion title={'More content..'} 
