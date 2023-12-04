@@ -19,7 +19,7 @@ import { Title, Loading } from "./globalStyledComponents";
 import StyledCard from "./StyledCard";
 
 
-var obama = require('../images/obama.png')
+var laserD = require('../images/laser_p3.png')
 
 export default function Projects() {
   const [mainProjects, setMainProjects] = React.useState([]);
@@ -152,7 +152,9 @@ export default function Projects() {
                   And finally we will use the front laser to move forward by turning to the right to finish squaring the car
                     
                      
-                  
+                  <center>
+                      <img src={laserD} width={550} height={350} alt='Large Pizza' />
+                    </center>                
   
                      <span></span>
                       Here is an example video: {"\n"} {"\n"}
