@@ -20,8 +20,7 @@ import StyledCard from "./StyledCard";
 
 
 var obama = require('../images/obama.png')
-var espiral = require('../images/espiral.jpg')
-var laserD = require('../images/laser_def.png')
+
 export default function Projects() {
   const [mainProjects, setMainProjects] = React.useState([]);
   const { theme } = useAppContext();
@@ -154,10 +153,7 @@ export default function Projects() {
                     
                      
                   
-             
-                     <center>
-                      <img src={esquematico} width={550} height={350} alt='Large Pizza' />
-                    </center>
+  
                      <span></span>
                       Here is an example video: {"\n"} {"\n"}
                     <center><iframe width="560" height="315" src="https://www.youtube.com/embed/eYn4rW6QfYA?si=kzYI9oo-ECcg0u2F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> </center>
