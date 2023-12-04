@@ -166,6 +166,7 @@ export default function Projects() {
                     The differences between cars at the code level have been minimal. {"\n"}
                     The vast majority of changes are due to differences between simulators between ros and ros2. {"\n"}
                     As well as modification of parameters.
+                    </pre>
                   </p>
                 
                     } />
