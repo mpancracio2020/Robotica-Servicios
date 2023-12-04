@@ -133,10 +133,10 @@ export default function Projects() {
                   <p>
                    In this practice we have 2 versions of the same task. On the one hand, a holonomic car where mobility is quite intuitive,{"\n"} 
                    and on the other, a car with Ackerman dynamics. {"\n"}
-                    
-                    <center>
-                      <img src={diagrama} width={350} height={350} alt='Large Pizza' />
-                    </center>
+                        
+                  <center>
+                      <img src={laserD} width={550} height={350} alt='Large Pizza' />
+                    </center>  
                     <center>
                      State diagram {"\n"}
                     </center>
@@ -151,10 +151,7 @@ export default function Projects() {
                   Then the car will go backwards, turning very subtly to better square the car until the distance of the rear sensor allows it.{"\n"}
                   And finally we will use the front laser to move forward by turning to the right to finish squaring the car
                     
-                     
-                  <center>
-                      <img src={laserD} width={550} height={350} alt='Large Pizza' />
-                    </center>                
+                               
   
                      <span></span>
                       Here is an example video: {"\n"} {"\n"}
