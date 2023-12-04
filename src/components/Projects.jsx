@@ -131,8 +131,10 @@ export default function Projects() {
                 <Accordion title={'More content..'} 
                   content={
                   <p>
+                  <span></span>
                    In this practice we have 2 versions of the same task. On the one hand, a holonomic car where mobility is quite intuitive,{"\n"} 
                    and on the other, a car with Ackerman dynamics. {"\n"}
+                  <span></span>
                         
                   <center>
                       <img src={laserD} width={550} height={350} alt='Large Pizza' />
@@ -150,7 +152,11 @@ export default function Projects() {
                   Once we have found the space, we proceed to maneuver, starting a forward movement while turning left to facilitate parking. {"\n"}
                   Then the car will go backwards, turning very subtly to better square the car until the distance of the rear sensor allows it.{"\n"}
                   And finally we will use the front laser to move forward by turning to the right to finish squaring the car
-                    
+
+                   <span> </span>
+                  The differences between cars at the code level have been minimal. {"\n"}
+                  The vast majority of changes are due to differences between simulators between ros and ros2. {"\n"}
+                  As well as modification of parameters.
                                
   
                      <span></span>
@@ -158,9 +164,7 @@ export default function Projects() {
                     <center><iframe width="560" height="315" src="https://www.youtube.com/embed/eYn4rW6QfYA?si=kzYI9oo-ECcg0u2F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> </center>
                   <span></span>
 
-                    The differences between cars at the code level have been minimal. {"\n"}
-                    The vast majority of changes are due to differences between simulators between ros and ros2. {"\n"}
-                    As well as modification of parameters.
+                    
                     </pre>
                   </p>
                 
