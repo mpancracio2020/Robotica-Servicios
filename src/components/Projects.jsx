@@ -162,7 +162,7 @@ export default function Projects() {
   
                      <span></span>
                       Here is an example video: {"\n"} {"\n"}
-                    <center><iframe width="560" height="315" src="https://www.youtube.com/embed/eYn4rW6QfYA?si=kzYI9oo-ECcg0u2F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> </center>
+                    <center><iframe width="560" height="315" src="https://www.youtube.com/embed/pWLZbrcnBuA?si=FN8QzS648ruP2o_T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> </center>
                   <span></span>
 
                     
