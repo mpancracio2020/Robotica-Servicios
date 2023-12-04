@@ -123,6 +123,59 @@ export default function Projects() {
             </div>
           </div>
           {/* P2 -END*/}
+          {/* P3 - Autoparking*/}
+
+          <div>
+            <h1>Vending Machine <Icon icon="icon-park-outline:parking" className="display-4" /></h1>
+            <div className="accordion">
+              {accordionData.map(({ title, content }) => (
+                <Accordion title={'More content..'} 
+                  content={
+                  <p>
+                   In this practice we have 2 versions of the same task. On the one hand, a holonomic car where mobility is quite intuitive,{"\n"} 
+                   and on the other, a car with Ackerman dynamics. {"\n"}
+                    
+                    <center>
+                      <img src={diagrama} width={350} height={350} alt='Large Pizza' />
+                    </center>
+                    <center>
+                     State diagram {"\n"}
+                    </center>
+                  <pre>
+                    
+                  The functionality can be summarized as follows: {"\n"}
+                      <span> </span>
+                    
+                  I have followed the scheme of a somewhat special state machine. First of all we keep the initial orientation of the car in case its use is necessary later.{"\n"} 
+                  Later we will advance until our right laser detects enough space to park. {"\n"}
+                  Once we have found the space, we proceed to maneuver, starting a forward movement while turning left to facilitate parking. {"\n"}
+                  Then the car will go backwards, turning very subtly to better square the car until the distance of the rear sensor allows it.{"\n"}
+                  And finally we will use the front laser to move forward by turning to the right to finish squaring the car
+                    
+                     
+                  
+             
+                     <center>
+                      <img src={esquematico} width={550} height={350} alt='Large Pizza' />
+                    </center>
+                     <span></span>
+                      Here is an example video: {"\n"} {"\n"}
+                    <center><iframe width="560" height="315" src="https://www.youtube.com/embed/eYn4rW6QfYA?si=kzYI9oo-ECcg0u2F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> </center>
+                  <span></span>
+
+                    The differences between cars at the code level have been minimal. {"\n"}
+                    The vast majority of changes are due to differences between simulators between ros and ros2. {"\n"}
+                    As well as modification of parameters.
+                  </p>
+                
+                    } />
+                 
+              ))}
+            </div>
+          </div>
+           
+           
+          {/* P3 -END*/}
           
         </Container>
       </section>
