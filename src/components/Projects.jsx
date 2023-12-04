@@ -145,7 +145,8 @@ export default function Projects() {
                   <pre>
                     
                   The functionality can be summarized as follows: {"\n"}
-                      <span> </span>
+                  <span> </span>
+                    {"\n"}
                     
                   I have followed the scheme of a somewhat special state machine. First of all we keep the initial orientation of the car in case its use is necessary later.{"\n"} 
                   Later we will advance until our right laser detects enough space to park. {"\n"}
