@@ -89,37 +89,29 @@ export default function Projects() {
                   content={
                   <p>
                   <span></span>
-                   In this practice we have 2 versions of the same task. On the one hand, a holonomic car where mobility is quite intuitive,{"\n"} 
-                   and on the other, a car with Ackerman dynamics. {"\n"}
-                  <span></span>
-                        
-                  <center>
-                      <img src={laserD} width={550} height={350} alt='Large Pizza' />
-                    </center>  
-                    <center>
-                     State diagram {"\n"}
-                    </center>
-                  <pre>
-                    
-                  The functionality can be summarized as follows: {"\n"}
-                  <span> </span>
-                    {"\n"}
-                    
-                  I have followed the scheme of a somewhat special state machine. First of all we keep the initial orientation of the car in case its use is necessary later.{"\n"} 
-                  Later we will advance until our right laser detects enough space to park. {"\n"}
-                  Once we have found the space, we proceed to maneuver, starting a forward movement while turning left to facilitate parking. {"\n"}
-                  Then the car will go backwards, turning very subtly to better square the car until the distance of the rear sensor allows it.{"\n"}
-                  And finally we will use the front laser to move forward by turning to the right to finish squaring the car
+                   This practice encompasses the task of rescuing survivors. For this we need a drone. We will use your GPS and camera to perform the task. {"\n"}
+                    First of all, you have to know an estimate of the position of the survivors. Which is (x,y) in my case. 
+                    <br>
+                    </br>
 
-                   <span> </span>
-                  The differences between cars at the code level have been minimal. {"\n"}
+                    Once here, we need to sweep the area. There are many methods, we can do spirals, up-down sweeps, etc...
+                    I have implemented a spiral, controlled by speed on the incremental x axis and a constant yaw value{"\n"}
                     
-                   <span> </span>
-                  The vast majority of changes are due to differences between simulators between ros and ros2. {"\n"}
-                  As well as modification of parameters. For the holonomic car I have implemented p3_holonimic.py {"\n"} 
-                  and later p3_ackermann.py for the ackermann car.{"\n"}
-                               
-  
+                    <br>
+                    </br>
+                    {"\n"}
+                    Now it's time to recognize faces, for this we use the Haar tool, which has a fairly low computational cost compared to other tools.{"\n"}
+                    Haar needs to have a "straight" face{"\n"}
+                    to be able to recognize it,therefore, we implemented an algorithm that allows us to detect faces with any rotation
+
+                    <br>
+                    </br>
+                    At this point, you just need not to repeat faces, comparing the position in which you detect a face, once you store 6 different faces, 
+                    {"\n"}
+                    return to the base and land using HAL.landed()
+                    <br>
+                    </br>
+                    {"\n"}
                   <span></span>
                     {"\n"}
                     {"\n"}
