@@ -81,34 +81,49 @@ export default function Projects() {
           {
           }
           {/* P1 - LOCALIZED VACUUM CLEANER -*/}
-           <div>
-            <h1>Rescue People <Icon icon="mdi:robot-vacuum-alert" className="display-4" /></h1>
+          <div>
+            <h1>LOCALIZED VACUUM CLEANER  <Icon icon="mdi:robot-vacuum-alert" className="display-4" /></h1>
             <div className="accordion">
               {accordionData.map(({ title, content }) => (
                 <Accordion title={'More content..'} 
                   content={
-                  <p>This practice consists of being able to navigate a vacuum cleaner intelligently using an image as a map. {"\n"}
-                    To do this we will use a BSA algorithm that allows us to move around the image, storing the positions and avoiding redundancies, to later go to these positions
-                    <br>
-                    <span></span>
+                  <p>
+                  <span></span>
+                   In this practice we have 2 versions of the same task. On the one hand, a holonomic car where mobility is quite intuitive,{"\n"} 
+                   and on the other, a car with Ackerman dynamics. {"\n"}
+                  <span></span>
+                        
+                  <center>
+                      <img src={laserD} width={550} height={350} alt='Large Pizza' />
+                    </center>  
+                    <center>
+                     State diagram {"\n"}
+                    </center>
+                  <pre>
+                    
+                  The functionality can be summarized as follows: {"\n"}
+                  <span> </span>
                     {"\n"}
-                    {"\n"}
+                    
+                  I have followed the scheme of a somewhat special state machine. First of all we keep the initial orientation of the car in case its use is necessary later.{"\n"} 
+                  Later we will advance until our right laser detects enough space to park. {"\n"}
+                  Once we have found the space, we proceed to maneuver, starting a forward movement while turning left to facilitate parking. {"\n"}
+                  Then the car will go backwards, turning very subtly to better square the car until the distance of the rear sensor allows it.{"\n"}
+                  And finally we will use the front laser to move forward by turning to the right to finish squaring the car
 
-                      For the conversion of pixels to real world coordinates, we have applied a scale from 1 to 50, knowing that, and taking into account some details,{"\n"}
-                      the final conversion would be the following:
-
-
-                      
-                      For movement we have followed the following movement priority pattern:
-                      <span></span>
+                   <span> </span>
+                  The differences between cars at the code level have been minimal. {"\n"}
+                    
+                   <span> </span>
+                  The vast majority of changes are due to differences between simulators between ros and ros2. {"\n"}
+                  As well as modification of parameters. For the holonomic car I have implemented p3_holonimic.py {"\n"} 
+                  and later p3_ackermann.py for the ackermann car.{"\n"}
+                               
+  
+                  <span></span>
                     {"\n"}
                     {"\n"}
-                      Every time we advance we stay with our respective neighbors, so that later in case we stay at a point of no return, we can trace a route to the nearest neighbor.
-
-                      <span></span>
-                    {"\n"}
-                    {"\n"}
-                    Here is an example video: {"\n"} {"\n"}
+                      Here is an example video: {"\n"} {"\n"}
                     <center><iframe width="560" height="315" src="https://www.youtube.com/embed/pWLZbrcnBuA?si=FN8QzS648ruP2o_T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> </center>
                   <span></span>
 
@@ -121,6 +136,7 @@ export default function Projects() {
               ))}
             </div>
           </div>
+           
           {/* P1 -END*/}
 
           {/* P2 - RESCUE PEOPLE -*/}
