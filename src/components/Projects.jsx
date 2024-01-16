@@ -82,7 +82,7 @@ export default function Projects() {
           }
           {/* P1 - LOCALIZED VACUUM CLEANER -*/}
           <div>
-            <h1>LOCALIZED VACUUM CLEANER  <Icon icon="mdi:robot-vacuum-alert" className="display-4" /></h1>
+            <h1>Autoparking <Icon icon="icon-park-outline:parking" className="display-4" /></h1>
             <div className="accordion">
               {accordionData.map(({ title, content }) => (
                 <Accordion title={'More content..'} 
@@ -92,8 +92,9 @@ export default function Projects() {
                    This practice encompasses the task of rescuing survivors. For this we need a drone. We will use your GPS and camera to perform the task. {"\n"}
                     First of all, you have to know an estimate of the position of the survivors. Which is (x,y) in my case. 
                     <br>
-                    </br>
-
+                  <span></span>
+                        
+                  
                     Once here, we need to sweep the area. There are many methods, we can do spirals, up-down sweeps, etc...
                     I have implemented a spiral, controlled by speed on the incremental x axis and a constant yaw value{"\n"}
                     
@@ -112,22 +113,27 @@ export default function Projects() {
                     <br>
                     </br>
                     {"\n"}
-                  <span></span>
+
+                  <pre>
+        
+                  <span> </span>
                     {"\n"}
-                    {"\n"}
+                    
+                
                       Here is an example video: {"\n"} {"\n"}
                     <center><iframe width="560" height="315" src="https://www.youtube.com/embed/pWLZbrcnBuA?si=FN8QzS648ruP2o_T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> </center>
                   <span></span>
 
                     
-                    
-                 
+                    </pre>
+                  </p>
                 
                     } />
                  
               ))}
             </div>
           </div>
+           
            
           {/* P1 -END*/}
 
