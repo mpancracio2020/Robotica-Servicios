@@ -104,29 +104,39 @@ export default function Projects() {
                     {"\t"}-Find a pixel route that will take me to cover the largest area possible without redundancy. {"\n"}
                     {"\t"}-Convert that pixel pattern to a coordinate pattern in the real world. {"\n"}
                     {"\t"}-Follow those coordinates using them as polars{"\n"}
-                    <span></span>
+                      {"\n"}
+                  {"\n"}
+                  <span> </span>
+                    
 
                     The change from pixels to coordinates will be managed by a scale change from 1 to 50:{"\n"}
-                    <span></span>
-
+                    {"\n"}
+                  {"\n"}
+                  <span> </span>
                     
 
                     On the other hand, our vacuum cleaner will reach closed points or points of no return, this is where the BSA {"\n"}
                     algorithm comes into play, which will create an array of neighboring positions so that if you need them, go to the closest {"\n"}
                     one and be able to leave the point of no return.{"\n"}
                     
-                  <span></span>
+                  {"\n"}
+                  {"\n"}
+                  <span> </span>
 
                     
                     The navigation is of the point-to-point type, first we calculate the direction vector to the point, then {"\n"}
                     calculate the polar coordinates and be able to orient the robot to the point, once done just move forward to a distance {"\n"}
                     sufficient to move to the next point{"\n"}
 
-                    <span></span>
+                    {"\n"}
+                  {"\n"}
+                  <span> </span>
 
                     
                     Here is an example of the bsa algorithm done locally:
-                    <span></span>
+                    {"\n"}
+                  {"\n"}
+                  <span> </span>
                     
                         
                   </pre>
