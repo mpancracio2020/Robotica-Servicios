@@ -80,6 +80,45 @@ export default function Projects() {
          
           {
           }
+          {/* P1 - LOCALIZED VACUUM CLEANER -*/}
+           <div>
+            <h1>Rescue People <Icon icon="mdi:robot-vacuum-alert" className="display-4" /></h1>
+            <div className="accordion">
+              {accordionData.map(({ title, content }) => (
+                <Accordion title={'More content..'} 
+                  content={
+                  <p>This practice consists of being able to navigate a vacuum cleaner intelligently using an image as a map. {"\n"}
+                    To do this we will use a BSA algorithm that allows us to move around the image, storing the positions and avoiding redundancies, to later go to these positions
+                    <br>
+                    <span></span>
+                    {"\n"}
+                    {"\n"}
+
+                      For the conversion of pixels to real world coordinates, we have applied a scale from 1 to 50, knowing that, and taking into account some details,{"\n"}
+                      the final conversion would be the following:
+
+
+                      
+                      For movement we have followed the following movement priority pattern:
+                      <span></span>
+                    {"\n"}
+                    {"\n"}
+                      Every time we advance we stay with our respective neighbors, so that later in case we stay at a point of no return, we can trace a route to the nearest neighbor.
+
+                      <span></span>
+                    {"\n"}
+                    {"\n"}
+
+                        Here is an example video: {"\n"} {"\n"}
+                    <center><iframe width="560" height="315" src="https://www.youtube.com/embed/GbOMlcvZUxs?si=nZPCvAFe2eF66ALc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
+                    
+                  </p>
+
+                                  } />
+              ))}
+            </div>
+          </div>
+          {/* P1 -END*/}
 
           {/* P2 - RESCUE PEOPLE -*/}
            <div>
