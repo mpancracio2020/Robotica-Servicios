@@ -20,6 +20,8 @@ import StyledCard from "./StyledCard";
 
 
 var laserD = require('../images/laser_p3.png')
+var mov = require('../images/MOV.png')
+var escala = require('../images/1m50px.png')
 
 export default function Projects() {
   const [mainProjects, setMainProjects] = React.useState([]);
@@ -113,8 +115,23 @@ export default function Projects() {
                     {"\n"}
                   {"\n"}
                   <span> </span>
-                    
 
+                      <center>
+                      <img src={escala} width={550} height={350} alt='Large Pizza' />
+                    </center>  
+
+                      {"\n"}
+                  {"\n"}
+                  <span> </span>
+                    
+                    The movement rule that the algorithm follows is the following:
+                      <center>
+                      <img src={mov} width={550} height={350} alt='Large Pizza' />
+                    </center>  
+
+                    {"\n"}
+                  {"\n"}
+                  <span> </span>
                     On the other hand, our vacuum cleaner will reach closed points or points of no return, this is where the BSA {"\n"}
                     algorithm comes into play, which will create an array of neighboring positions so that if you need them, go to the closest {"\n"}
                     one and be able to leave the point of no return.{"\n"}
