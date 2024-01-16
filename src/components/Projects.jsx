@@ -117,7 +117,7 @@ export default function Projects() {
                   <span> </span>
 
                       <center>
-                      <img src={escala} width={550} height={350} alt='Large Pizza' />
+                      <img src={escala} width={150} height={150} alt='Large Pizza' />
                     </center>  
 
                       {"\n"}
@@ -126,7 +126,7 @@ export default function Projects() {
                     
                     The movement rule that the algorithm follows is the following:
                       <center>
-                      <img src={mov} width={550} height={350} alt='Large Pizza' />
+                      <img src={mov} width={290} height={270} alt='Large Pizza' />
                     </center>  
 
                     {"\n"}
