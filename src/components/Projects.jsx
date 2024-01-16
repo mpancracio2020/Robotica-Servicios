@@ -94,6 +94,7 @@ export default function Projects() {
                     <center>
                         Summary
                     </center>
+                    <pre>
                    This practice includes the task of using a map, that is, an image, to be able to locate the vacuum cleaner so that it does not repeat the areas {"\n"}
                     that it has already cleaned. 
                     <br>
@@ -128,7 +129,7 @@ export default function Projects() {
                     <span></span>
                     
                         
-            
+                  </pre>
                   <pre>
                     
                   
