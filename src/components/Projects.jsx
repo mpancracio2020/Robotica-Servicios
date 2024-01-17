@@ -293,15 +293,61 @@ export default function Projects() {
                   
                   In this practice we will use OMPL, which is a software package for calculating motion plans using sampling-based algorithms. {"\n"}
                   To do this we will use an image of the map, and it will return in pixels a path with the movement to follow to lift and transport the shelf.
+                    <span></span>
+                    {"\n"}
+                    {"\n"}
+                    <center>
+                      Implementaciones
+                    </center>
+                     <span></span>
+                    {"\n"}
+                    {"\n"}
+                    {"\t"}-Erode the image to better detect obstacles. {"\n"}
+                    {"\t"}-Define the problem, and the state validator.{"\n"}
+                    {"\t"}-Declare and initialize the plan. {"\n"}
+                    {"\t"}-Get the solutions. {"\n"}
+                    {"\t"}-Convert the solution path to the coordinate path. {"\n"}
+                    {"\t"}-And finally take the route.{"\n"}
 
-                   <span> </span>
-                  The differences between cars at the code level have been minimal. {"\n"}
+                    <center>
+                      OMPL
+                    </center>
+                    <span></span>
+                    {"\n"}
+                    {"\n"}
+
+                    For the implementation of the planner we have made use of the Plane2DEnvironment class, adjusting it to the needs of OpenCv and those of {"\n"}
+                    the task itself, in this way we would obtain the pixel path.{"\n"}
+                     <span></span>
+                    {"\n"}
+                    {"\n"}
+
+
+                    <center>
+                      Real World and Pixels
+                    </center>
+                    <span></span>
+                    {"\n"}
+                    {"\n"}
+
+                    We want to navigate the real world, that is, we have coordinates in x and y, the planner understands pixels, so we will use 2 methods: {"\n"}
+                    conversion of pixels to coordinates and another inverse.
+                    <span></span>
+                    {"\n"}
+                    {"\n"}
+                    <center>
+                      Navegation
+                    </center>
+                    <span></span>
+                    {"\n"}
+                    {"\n"}
+
+
+                    For navigation I have followed an iterative algorithm that checks the angle of alignment with the point to follow and once aligned it{"\n"}
+                    advances until reaching a distance that allows moving to the next point. The alignment is checked with each step the robot takes so it will {"\n"}
+                    always go straight to the point{"\n"}
+
                     
-                   <span> </span>
-                  The vast majority of changes are due to differences between simulators between ros and ros2. {"\n"}
-                  As well as modification of parameters. For the holonomic car I have implemented p3_holonimic.py {"\n"} 
-                  and later p3_ackermann.py for the ackermann car.{"\n"}
-                               
   
                   <span></span>
                     {"\n"}
