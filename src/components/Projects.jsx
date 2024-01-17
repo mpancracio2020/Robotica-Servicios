@@ -340,14 +340,14 @@ export default function Projects() {
                     {"\n"}
                   </pre>
                     <center>
-                      <img src={escalap41} width={250} height={250} alt='Large Pizza' />
+                      <img src={escalap41} width={150} height={150} alt='Large Pizza' />
                     </center>
                     <pre>
                     <span></span>
                     {"\n"}
                     {"\n"}
                     <center>
-                      <img src={escalap42} width={250} height={250} alt='Large Pizza' />
+                      <img src={escalap42} width={150} height={150} alt='Large Pizza' />
                     </center>
                      <span></span>
                     {"\n"}
@@ -365,7 +365,7 @@ export default function Projects() {
                     always go straight to the point{"\n"}
 
                     <center>
-                      <img src={angulosp4} width={350} height={350} alt='Large Pizza' />
+                      <img src={angulosp4} width={350} height={150} alt='Large Pizza' />
                     </center>
 
                     
