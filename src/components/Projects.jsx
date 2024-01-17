@@ -184,7 +184,7 @@ export default function Projects() {
                   <span> </span>
 
                       <center>
-                      <img src={gif} width={350} height={170} alt='Large Pizza' />
+                      <center><iframe width="560" height="315" src="https://youtube.com/shorts/zKZaETAYjiQ?si=1BWqjQ_x65D1JFoI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </center>
 
                     
