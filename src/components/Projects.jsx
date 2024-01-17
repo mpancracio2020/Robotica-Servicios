@@ -22,6 +22,9 @@ import StyledCard from "./StyledCard";
 var laserD = require('../images/laser_p3.png')
 var mov = require('../images/MOV.png')
 var escala = require('../images/1m50px.png')
+var escalap41 = require('../images/escala_p4.png')
+var escalap42 = require('../images/escala_p4_2.png')
+var angulosp4 = require('../images/angulosp4.png')
 
 export default function Projects() {
   const [mainProjects, setMainProjects] = React.useState([]);
@@ -336,6 +339,18 @@ export default function Projects() {
                     {"\n"}
                     {"\n"}
                     <center>
+                      <img src={escalap41} width={250} height={250} alt='Large Pizza' />
+                    </center>
+                    <span></span>
+                    {"\n"}
+                    {"\n"}
+                    <center>
+                      <img src={escalap42} width={250} height={250} alt='Large Pizza' />
+                    </center>
+                     <span></span>
+                    {"\n"}
+                    {"\n"}
+                    <center>
                       Navegation
                     </center>
                     <span></span>
@@ -346,6 +361,10 @@ export default function Projects() {
                     For navigation I have followed an iterative algorithm that checks the angle of alignment with the point to follow and once aligned it{"\n"}
                     advances until reaching a distance that allows moving to the next point. The alignment is checked with each step the robot takes so it will {"\n"}
                     always go straight to the point{"\n"}
+
+                    <center>
+                      <img src={angulosp4} width={350} height={350} alt='Large Pizza' />
+                    </center>
 
                     
   
