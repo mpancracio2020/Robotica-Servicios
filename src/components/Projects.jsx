@@ -27,6 +27,14 @@ var escalap42 = require('../images/escala_p4_2.png')
 var angulosp4 = require('../images/angulosp4.png')
 var ang = require('../images/ang.png')
 var gif = require('../images/Grabación de pantalla desde 16-01-24 23:47:46.webm')
+const link = <a href="https://youtube.com/shorts/zKZaETAYjiQ?si=1BWqjQ_x65D1JFoI"> link </a>;
+
+const NavLinks = props => (
+  <nav>
+    <NavLink exact strict to="https://youtube.com/shorts/zKZaETAYjiQ?si=1BWqjQ_x65D1JFoI">BSA</NavLink>
+  </nav>
+)
+
 
 export default function Projects() {
   const [mainProjects, setMainProjects] = React.useState([]);
@@ -148,6 +156,7 @@ export default function Projects() {
                     {"\n"}
                   {"\n"}
                   <span> </span>
+                       <NavLinks />
                     On the other hand, our vacuum cleaner will reach closed points or points of no return, this is where the BSA {"\n"}
                     algorithm comes into play, which will create an array of neighboring positions so that if you need them, go to the closest {"\n"}
                     one and be able to leave the point of no return.{"\n"}
@@ -178,7 +187,7 @@ export default function Projects() {
                     {"\n"}
 
                     
-                    Here is an example of the bsa algorithm done locally:
+                    Here is an example of the bsa algorithm done locally: link}
                     {"\n"}
                   {"\n"}
                   <span> </span>
@@ -190,8 +199,7 @@ export default function Projects() {
                   </pre>
                   <pre>
                     
-                      <center><iframe width="560" height="315" src="https://youtube.com/shorts/zKZaETAYjiQ?si=1BWqjQ_x65D1JFoI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                    </center>
+                     
                   
                       Here is an example video: {"\n"} {"\n"}
                     <center><iframe width="560" height="315" src="https://www.youtube.com/embed/mnlNDesFL6c?si=09ncEgK4Xv1vp8dQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
