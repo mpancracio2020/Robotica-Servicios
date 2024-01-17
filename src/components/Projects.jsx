@@ -317,6 +317,9 @@ export default function Projects() {
                    
                  
                   <pre>
+                     <center>
+                      Summary
+                    </center>
                   
                   In this practice we will use OMPL, which is a software package for calculating motion plans using sampling-based algorithms. {"\n"}
                   To do this we will use an image of the map, and it will return in pixels a path with the movement to follow to lift and transport the shelf.
