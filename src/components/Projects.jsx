@@ -121,7 +121,7 @@ export default function Projects() {
                   <span> </span>
 
                       <center>
-                      <img src={escala} width={150} height={150} alt='Large Pizza' />
+                      <img src={escala} width={190} height={90} alt='Large Pizza' />
                     </center>  
 
                       {"\n"}
@@ -364,14 +364,14 @@ export default function Projects() {
                     {"\n"}
                   </pre>
                     <center>
-                      <img src={escalap41} width={150} height={100} alt='Large Pizza' />
+                      <img src={escalap41} width={190} height={90} alt='Large Pizza' />
                     </center>
                     <pre>
                     <span></span>
                     {"\n"}
                     {"\n"}
                     <center>
-                      <img src={escalap42} width={150} height={100} alt='Large Pizza' />
+                      <img src={escalap42} width={190} height={90} alt='Large Pizza' />
                     </center>
                      <span></span>
                     {"\n"}
