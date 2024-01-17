@@ -183,10 +183,10 @@ export default function Projects() {
                   {"\n"}
                   <span> </span>
 
-                      <Video width="320" height="240" controls>
-                       <source src={gif}>
-                      
-                    </Video>
+                      <center>
+                      <img src={gif} width={350} height={170} alt='Large Pizza' />
+                    </center>
+
                     
                         
                   </pre>
