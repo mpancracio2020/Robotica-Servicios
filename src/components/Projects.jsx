@@ -278,6 +278,50 @@ export default function Projects() {
            
            
           {/* P3 -END*/}
+          {/* P4 - AMAZON WAREHOUSE*/}
+
+          <div>
+            <h1>AMAZON WAREHOUSE <Icon icon="cib:amazon-aws" className="display-4" /></h1>
+            <div className="accordion">
+              {accordionData.map(({ title, content }) => (
+                <Accordion title={'More content..'} 
+                  content={
+                  <p>
+                   
+                 
+                  <pre>
+                  
+                  In this practice we will use OMPL, which is a software package for calculating motion plans using sampling-based algorithms. {"\n"}
+                  To do this we will use an image of the map, and it will return in pixels a path with the movement to follow to lift and transport the shelf.
+
+                   <span> </span>
+                  The differences between cars at the code level have been minimal. {"\n"}
+                    
+                   <span> </span>
+                  The vast majority of changes are due to differences between simulators between ros and ros2. {"\n"}
+                  As well as modification of parameters. For the holonomic car I have implemented p3_holonimic.py {"\n"} 
+                  and later p3_ackermann.py for the ackermann car.{"\n"}
+                               
+  
+                  <span></span>
+                    {"\n"}
+                    {"\n"}
+                      Here is an example video: {"\n"} {"\n"}
+                    <center><iframe width="560" height="315" src="https://www.youtube.com/embed/pWLZbrcnBuA?si=FN8QzS648ruP2o_T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> </center>
+                  <span></span>
+
+                    
+                    </pre>
+                  </p>
+                
+                    } />
+                 
+              ))}
+            </div>
+          </div>
+           
+           
+          {/* P4 -END*/}
           
         </Container>
       </section>
