@@ -159,7 +159,7 @@ export default function Projects() {
                   {"\n"}
                   {"\n"}
                   <span> </span>
-                      link
+                      {link}
                   <center>
                       Navigation
                     </center>
