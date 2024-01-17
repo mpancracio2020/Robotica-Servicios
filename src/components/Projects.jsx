@@ -188,7 +188,7 @@ export default function Projects() {
                     
                   
                       Here is an example video: {"\n"} {"\n"}
-                    <center><iframe width="560" height="315" src="https://www.youtube.com/embed/pWLZbrcnBuA?si=FN8QzS648ruP2o_T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> </center>
+                    <center>iframe width="560" height="315" src="https://www.youtube.com/embed/mnlNDesFL6c?si=09ncEgK4Xv1vp8dQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> </center>
                   <span></span>
 
                     
@@ -401,7 +401,7 @@ export default function Projects() {
                     {"\n"}
                     {"\n"}
                       Here is an example video: {"\n"} {"\n"}
-                    <center><iframe width="560" height="315" src="https://www.youtube.com/embed/pWLZbrcnBuA?si=FN8QzS648ruP2o_T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> </center>
+                    <center><iframe width="560" height="315" src="https://www.youtube.com/embed/j2JU6MXcod4?si=OtxSinj9uaPvJeqV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> </center>
                   <span></span>
 
                     
