@@ -126,7 +126,7 @@ export default function Projects() {
                     
                     The movement rule that the algorithm follows is the following:
                       <center>
-                      <img src={mov} width={150} height={150} alt='Large Pizza' />
+                      <img src={mov} width={650} height={150} alt='Large Pizza' />
                     </center>  
 
                     {"\n"}
