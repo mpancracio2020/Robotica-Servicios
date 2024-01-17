@@ -129,7 +129,7 @@ export default function Projects() {
                   <span> </span>
 
                       <center>
-                      <img src={escalap41} width={150} height={150} alt='Large Pizza' />
+                      <img src={escalap41} width={150} height={90} alt='Large Pizza' />
                     </center> 
                       
                     
