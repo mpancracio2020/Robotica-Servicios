@@ -25,6 +25,7 @@ var escala = require('../images/1m50px.png')
 var escalap41 = require('../images/escala_p4.png')
 var escalap42 = require('../images/escala_p4_2.png')
 var angulosp4 = require('../images/angulosp4.png')
+var ang = require('../images/ang.png')
 
 export default function Projects() {
   const [mainProjects, setMainProjects] = React.useState([]);
@@ -126,11 +127,22 @@ export default function Projects() {
                       {"\n"}
                   {"\n"}
                   <span> </span>
+
+                      <center>
+                      <img src={escalap41} width={150} height={150} alt='Large Pizza' />
+                    </center> 
+                      
                     
                     The movement rule that the algorithm follows is the following:
                       <center>
                       <img src={mov} width={650} height={150} alt='Large Pizza' />
                     </center>  
+                      {"\n"}
+                  {"\n"}
+                  <span> </span>
+                      <center>
+                        BSA
+                      </center>
 
                     {"\n"}
                   {"\n"}
@@ -142,7 +154,12 @@ export default function Projects() {
                   {"\n"}
                   {"\n"}
                   <span> </span>
-
+                  <center>
+                      Navigation
+                    </center>
+                      {"\n"}
+                  {"\n"}
+                  <span> </span>
                     
                     The navigation is of the point-to-point type, first we calculate the direction vector to the point, then {"\n"}
                     calculate the polar coordinates and be able to orient the robot to the point, once done just move forward to a distance {"\n"}
@@ -151,6 +168,13 @@ export default function Projects() {
                     {"\n"}
                   {"\n"}
                   <span> </span>
+                            <center>
+                      <img src={ang} width={350} height={170} alt='Large Pizza' />
+                    </center>
+
+                  <span></span>
+                    {"\n"}
+                    {"\n"}
 
                     
                     Here is an example of the bsa algorithm done locally:
