@@ -154,12 +154,12 @@ export default function Projects() {
                        
                     On the other hand, our vacuum cleaner will reach closed points or points of no return, this is where the BSA {"\n"}
                     algorithm comes into play, which will create an array of neighboring positions so that if you need them, go to the closest {"\n"}
-                    one and be able to leave the point of no return.{"\n"}
+                    one and be able to leave the point of no return.  {link}{"\n"}
                     
                   {"\n"}
                   {"\n"}
                   <span> </span>
-                      {link}
+                      
                   <center>
                       Navigation
                     </center>
