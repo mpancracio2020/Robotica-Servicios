@@ -338,9 +338,11 @@ export default function Projects() {
                     <span></span>
                     {"\n"}
                     {"\n"}
+                  </pre>
                     <center>
                       <img src={escalap41} width={250} height={250} alt='Large Pizza' />
                     </center>
+                    <pre>
                     <span></span>
                     {"\n"}
                     {"\n"}
