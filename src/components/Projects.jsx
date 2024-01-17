@@ -29,11 +29,6 @@ var ang = require('../images/ang.png')
 var gif = require('../images/Grabación de pantalla desde 16-01-24 23:47:46.webm')
 const link = <a href="https://youtube.com/shorts/zKZaETAYjiQ?si=1BWqjQ_x65D1JFoI"> link </a>;
 
-const NavLinks = props => (
-  <nav>
-    <NavLink exact strict to="https://youtube.com/shorts/zKZaETAYjiQ?si=1BWqjQ_x65D1JFoI">BSA</NavLink>
-  </nav>
-)
 
 
 export default function Projects() {
@@ -156,7 +151,7 @@ export default function Projects() {
                     {"\n"}
                   {"\n"}
                   <span> </span>
-                       <NavLinks />
+                       
                     On the other hand, our vacuum cleaner will reach closed points or points of no return, this is where the BSA {"\n"}
                     algorithm comes into play, which will create an array of neighboring positions so that if you need them, go to the closest {"\n"}
                     one and be able to leave the point of no return.{"\n"}
@@ -164,6 +159,7 @@ export default function Projects() {
                   {"\n"}
                   {"\n"}
                   <span> </span>
+                      link
                   <center>
                       Navigation
                     </center>
