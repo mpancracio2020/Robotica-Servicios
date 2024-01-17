@@ -26,6 +26,7 @@ var escalap41 = require('../images/escala_p4.png')
 var escalap42 = require('../images/escala_p4_2.png')
 var angulosp4 = require('../images/angulosp4.png')
 var ang = require('../images/ang.png')
+var gif = require('../images/Grabación de pantalla desde 16-01-24 23:47:46.webm')
 
 export default function Projects() {
   const [mainProjects, setMainProjects] = React.useState([]);
@@ -181,6 +182,11 @@ export default function Projects() {
                     {"\n"}
                   {"\n"}
                   <span> </span>
+
+                      <Video width="320" height="240" controls>
+                       <source src={gif}>
+                      
+                    </Video>
                     
                         
                   </pre>
