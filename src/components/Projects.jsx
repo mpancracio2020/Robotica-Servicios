@@ -187,10 +187,7 @@ export default function Projects() {
                       <center><iframe width="560" height="315" src="https://youtube.com/shorts/zKZaETAYjiQ?si=1BWqjQ_x65D1JFoI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </center>
 
-                    
-                        
-                  </pre>
-                  <pre>
+                  
                     
                   
                       Here is an example video: {"\n"} {"\n"}
