@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Robotica-Servicios/static/css/main.39ec8380.css",
-    "main.js": "/Robotica-Servicios/static/js/main.918a9d03.js",
+    "main.js": "/Robotica-Servicios/static/js/main.660fcd23.js",
     "static/media/Y7938X.jpg": "/Robotica-Servicios/static/media/Y7938X.69557cac1491694e997b.jpg",
     "static/media/Grabación de pantalla desde 16-01-24 23:47:46.webm": "/Robotica-Servicios/static/media/Grabación de pantalla desde 16-01-24 23:47:46.abf6e0f1c23c13e105b9.webm",
     "static/media/laser_p3.png": "/Robotica-Servicios/static/media/laser_p3.1dd65bcd8e60247ca615.png",
@@ -16,10 +16,10 @@
     "static/media/logo.svg": "/Robotica-Servicios/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Robotica-Servicios/index.html",
     "main.39ec8380.css.map": "/Robotica-Servicios/static/css/main.39ec8380.css.map",
-    "main.918a9d03.js.map": "/Robotica-Servicios/static/js/main.918a9d03.js.map"
+    "main.660fcd23.js.map": "/Robotica-Servicios/static/js/main.660fcd23.js.map"
   },
   "entrypoints": [
     "static/css/main.39ec8380.css",
-    "static/js/main.918a9d03.js"
+    "static/js/main.660fcd23.js"
   ]
 }
